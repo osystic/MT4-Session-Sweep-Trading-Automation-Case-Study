@@ -1,0 +1,33 @@
+schema_version: 2
+repository_class: public-showcase
+visibility: public
+lifecycle: maintenance
+owner_team: engineering
+data_classification: public
+client_identity_public: false
+portfolio:
+  eligible: true
+  status: approved-public-showcase
+source:
+  type: sanitized-client-delivery
+  confidential_source_linked: false
+  source_code_included: false
+publication:
+  contact_information_included: false
+  credentials_included: false
+  private_infrastructure_included: false
+  contract_or_payment_details_included: false
+  private_conversations_included: false
+delivery:
+  default_branch: main
+  ci_required: true
+  production_environment: false
+project:
+  key: mt4-session-sweep-trading-automation
+  name: MT4 Session-Sweep Trading Automation
+  status: completed
+website:
+  eligible: true
+  status: ready-for-review
+  canonical_slug: mt4-session-sweep-trading-automation
+  auto_sync: true
